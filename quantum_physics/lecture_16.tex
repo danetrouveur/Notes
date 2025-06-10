@@ -1,0 +1,45 @@
+\section{Lecture 16 (March 5th)}
+\begin{rmk}
+There are multiple ways to solve partial differential equations:
+\begin{itemize}
+\item[(i)] Separation of variables
+\item[(ii)] Green's functions method
+\item[(iii)] Variational method 
+\end{itemize}
+\end{rmk}
+\vspace{2ex}
+\begin{ex}
+We have different PDEs, 
+\begin{itemize}
+\item[(i)] (Laplace/Poisson equation) \[\nabla ^2\mathrm{\Phi} =(0,-4\pi \rho )\]
+\item[(ii)] (Homogeneous/inhomogeneous wave equations) \[\nabla ^2\mathrm{\Psi} -\dfrac{1}{c^2}\dfrac{\partial ^2}{\partial t^2}\mathrm{\Psi} =(0,-4\pi f(x,t)) \]
+where we can substitute $e^{-i\omega t}\mathrm{\Psi} (x,\omega )$ to obtain
+\begin{align*}
+\nabla^2 \mathrm{\Psi} -\dfrac{1}{c^2}\dfrac{\partial ^2}{\partial t^2}\mathrm{\Psi} =&0\\
+\nabla ^2_{x}\mathrm{\Psi} (x,\omega )+\dfrac{\omega ^2}{c^2}\mathrm{\Psi} (x,\omega )=0
+\end{align*}
+which is the Helmholtz equation. 
+\end{itemize}
+We therefore have the Laplace, Helmholtz, and modified Helmholtz equations as major equations of partial differential equations.
+\[\nabla ^2\psi =0\quad (\nabla ^2+R^2)\psi =0\quad (\nabla ^2-R^2)\psi =0\]
+\end{ex}
+\vspace{2ex}
+\begin{thm}
+(Time-independent Schrodinger equation in central potential) 
+\[\Big(-\dfrac{\hbar ^2}{2m}\nabla^2+V(|{\bf r}|)\mathrm{\Psi} ({\bf r})=E\mathrm{\Psi} ({\bf r})\Big)\]
+Notice how when $V=0$, we have an Helmholtz equation.
+\begin{itemize}
+\item[(i)] (Cartesian coordinate system) We have,
+\begin{align*}
+0=&\dfrac{\partial ^2\psi }{\partial x^2}+\dfrac{\partial ^2\psi }{\partial y^2}+\dfrac{\partial ^2 \psi}{\partial z^2}+k^2\psi	 \\
+\psi =&\psi (x,y,z)=X(x)Y(y)Z(y)\\
+\dfrac{1}{X}\dfrac{d ^2X}{d x^2}=&-k^2-\dfrac{1}{Y}\dfrac{d ^2Y}{d y^2}-\dfrac{1}{Z}\dfrac{d ^2Z}{dz^2 }=c   
+\end{align*}
+When the boundary condition is periodic, we take the constant $c$ to be negative, while when there is a monotonic boundary condition, we take the constant to be positive. We then arrive at
+\[\psi (x,y,z)=\sum _{l,m}a_{lm}\psi _{lm}(x,y,z)\]
+\item[(ii)] (Cylindrical coordinate system) Following a similar argument from above, we find that in many situations, $Z$ does not take oscillatory behaviour. Meanwhile, for the $\mathrm{\Phi}  (\phi ) $ component, we require an oscillatory solution, and set the constant to be negative. Lastly, for $P(\rho )$, we have an Bessel differential equation, which must be memorised.
+\item[(iii)] (Spherical polar coordinates) Following a similar argument from above, we first have the equation for the azimuthal angle which equates to $-m^2$, where $m\in {\bm Z}$. Additionally, we have an associated Legendre equation and a spherical Bessel equation for the polar angle and radial components each. Note that we must take the constant to be of form $l(l+1)$. 
+\end{itemize}
+\end{thm}
+\vspace{2ex}
+
