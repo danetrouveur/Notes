@@ -1,20 +1,12 @@
 \section{Lecture 18 (May 20th)}
-\begin{rmk}
-Let $f:E\rightarrow {\bm R}$ be a measurable function. We have established the following.
-\begin{itemize}
-\item[(i)] For $p>0$, if $\int _{E}|f|^{p}\,dm<\infty $ then $f\in L^{p}(E)$. 
-\item[(ii)] If there is $M\geq 0$ such that $|f(x)|\leq M$ almost everywhere on $E$, then $f\in L^{\infty }(E)$.
-\item[(iii)] If $1\leq p \leq \infty $ then $L^{p}(E)$ is a Banach space with $||\cdot ||_{p}$ norm.
-\item[(iv)] If $0<p<1$ then $L^{p}(E)$ is a complete metric space with $d(f,g)=\int _{E}|f-g|^{p}\,dm$. 
-\end{itemize}
-\end{rmk}
-\vspace{2ex}
 \begin{thm}
 If $m(E)<\infty $ and $1<p<q<\infty $ then $L^{\infty }(E)\subset L^{q}(E)\subset L^{p}(E)\subset L^{1}(E)$. 
 \end{thm}
 \vspace{2ex}
 \begin{proof}
-If $||f||_{\infty }<\infty $ then $\int _{E}|f|^{p}\,d m\leq \int _{E}||f||^{p}_{\infty }\,d m=||f||^{p}_{\infty }\cdot m(E)<\infty $ such that $f\in L^{p}(E)$. Meanwhile, if $p<q$ and $f\in L^{q}(E)$,
+If $||f||_{\infty }<\infty $ then $\int _{E}|f|^{p}\,d m\leq \int _{E}||f||^{p}_{\infty }\,d m=||f||^{p}_{\infty }\cdot m(E)<\infty $ such that $f\in L^{p}(E)$. Meanwhile, if $p<q$ and $f\in L^{q}(E)$, we notice that 
+\[\dfrac{q}{p}\quad\mathrm{and}\quad c=\dfrac{1}{1-\frac{q}{p}}\]
+are conjugate exponents. Subsequently,
 \begin{align*}
 \int _{E}|f|^{p}\,d m=\int _{E}|f|^{p}\cdot 1\,d m\leq &\Big[\int _{E}(|f|^{p})^{q/p}\Big]^{p/q}\Big[\int _{E}1\,d m\Big]^{c}\\
 =&||f||^{p}_{q}\cdot m(E)^{c}<\infty

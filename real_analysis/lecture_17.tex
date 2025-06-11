@@ -14,7 +14,7 @@ If so, we'll show that
 \newline
 ({\it STEP} 1) We know that $f\in L^{+}(E)$ and $\int _{E}f\,dm<\infty $ then $m(\{x\in E \,|\, f(x)=\infty \})=0$. Notice how
 \[\sum ^{k-1}_{i=1}(f_{n_{i+1}}(x)-f_{n_{i}}(x))=f_{n_{k}}(x)-f_{n_1}(x)\]
-Now define $g_{n}(x)=\sum ^{n}_{k=1}[f_{n_{k+1}}(x)-f_{n_{k}}(x)]$ and $g(x)=\sum _{k=1}^{\infty }[f_{n_{k+1}}(x)-f_{n_{k}}(x)]$. Then by the Minkowski inequality, 
+Now define $g_{n}(x)=\sum ^{n}_{k=1}|f_{n_{k+1}}(x)-f_{n_{k}}(x)|$ and $g(x)=\sum _{k=1}^{\infty }|f_{n_{k+1}}(x)-f_{n_{k}}(x)|$. Then by the Minkowski inequality, 
 \[||g_{n}||_{p}\leq \sum ^{n }_{k=1}\dfrac{1}{k^2}\leq \sum ^{\infty }_{k=1}\dfrac{1}{k^2}=\dfrac{\pi ^2}{6}<2\]
 As $g_{n}\nearrow g$, we see that $g_{n}^{p}\nearrow g^{p}$, and due to the monotone convergence theorem, 
 \[\int _{E}|g|^{p}\,d m=\lim _{n\rightarrow \infty }\int _{E}|g_{n}|^{p}\,d m<2^{p}\]
@@ -26,13 +26,13 @@ We see that $\lim _{k\rightarrow \infty }f_{n_{k}}(x)$ converges pointwise almos
 \\\\
 ({\it STEP} 2) Now define $f(x)=\lim _{k\rightarrow \infty }f_{n_{k}}(x)$ where it converges and 0 elsewhere. We'll show that $f\in L^{p}(E)$ and $\lim _{n\rightarrow \infty }||f_{n}-f||_{p}=0$. Notice how for some $N$, if $n\geq N$ then 
 \[\int _{E}|f-f_{n}|^{p}\,d m\leq \liminf_{k\rightarrow \infty }\int _{E}|f_{n_{k}}-f_{n}|^{p}\,d m<\varepsilon ^{p}\]
-that is, if $n\geq N$ then $||f-f_{n}||_{p}<\varepsilon $. Additionally, for $n\geq N$, $f$ can be expressed as  
+or equivalently, if $n\geq N$ then $||f-f_{n}||_{p}<\varepsilon $. Additionally, for $n\geq N$, $f$ can be expressed as  
 \[f=\underbrace{f-f_{n}}_{\in L^{p}}+\underbrace{f_{n}}_{\in L^{p}}\]
 proving that $f\in L^{p}$. 
 \end{proof}
 \vspace{2ex}
 \begin{defi}
-$f\in L^{\infty }(E)$ provided that there is $M\geq 0$ such that $|f(x)|\leq M$ almost everywhere on $E$. The infimum of such $M$ is denoted by $||f||_{\infty }$. If so, $f\in L^{\infty }(E)$ is called essentially bounded and measurable on $E$. $||f||_{\infty }$ is called the essential supremum of $f$ on $E$. \end{defi}
+$f\in L^{\infty }(E)$ provided that there is $M\geq 0$ such that $|f(x)|\leq M$ almost everywhere on $E$. The norm $||f||_{\infty }$ is defined as the infimum of such uppoer bouneds$ M$. If $f\in L^{\infty }(E)$, $f$ is called essentially bounded and measurable on $E$ and $||f||_{\infty }$ is called the essential supremum of $f$ on $E$. \end{defi}
 \vspace{2ex}
 \begin{rmk}
 \begin{itemize}
@@ -103,10 +103,10 @@ Suppose $a<x<y<b$ satisfies $f_{n(x)}=f_{n(y)}$. Then,
 which is a contradiction. We thus found that all dense subsets of $L^{\infty }(E)$ are uncountable. 
 \end{proof}
 \vspace{2ex}
-\begin{rmk}
-We define $C^{\infty }_{c}(E)$ as the space of smooth functions with a compact support inside $E$. By compact support we mean the closure of the set where $f(x)\ne 0$.
+\begin{defi}
+We define $C^{\infty }_{c}(E)$ as the space of smooth functions with a compact support inside $E$. By support we mean the closure of the set where $f(x)\ne 0$.
 \[\mathop{\mathrm{supp}}(f)=\overline{\{x\in E \,|\, f(x)\ne 0 \}}\]
 We remark that $C^{\infty }_{c}(E)$ is dense in $L^{p}(E)$ for $1\leq p< \infty $.
-\end{rmk}
+\end{defi}
 \vspace{2ex}
 

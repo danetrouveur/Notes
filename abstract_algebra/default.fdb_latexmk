@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1749353603.60582 "default.tex" "default.pdf" "default" 1749353605.0707 2
+["pdflatex"] 1749684611.6635 "default.tex" "default.pdf" "default" 1749684613.71849 2
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvbc7t.tfm" 1136768653 2672 88159036c64e674fcd9515bc9c7052d4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -196,9 +196,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1722087936 5483422 a1ef07ac981a8b7f5985102f2de312a6 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722088451 8239366 ff316a329abd88a742fe564e39c10821 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "default.aux" 1749353604.93569 1510 4fc9755cf122cff8c599ab9004a5da73 "pdflatex"
-  "default.out" 1749353604.9366 1797 1b917e29b32abef99110071ed9aea2bb "pdflatex"
-  "default.tex" 1749351263.8789 820 09b60ab72668ae427b9c5ef249b67411 ""
+  "default.aux" 1749684613.48532 1510 4468b7a5ef038292bf6e47ed90454e7f "pdflatex"
+  "default.out" 1749684613.48653 1797 1b917e29b32abef99110071ed9aea2bb "pdflatex"
+  "default.tex" 1749684610.81911 843 b3ded51c7d81921a4feed2edf224db9c ""
   "jheppub.sty" 1734668770 11794 6d17a977bbb994fa9e704befb431a7fa ""
   "lecture_14.tex" 1747794586.49178 4334 8cc9fe2895e9b187112f14200324caea ""
   "lecture_15.tex" 1747868415.35475 7142 2eb7fbca907f4ae2cfd5366032a942e8 ""
@@ -207,10 +207,11 @@
   "lecture_18.tex" 1748757874.60866 3271 edd792a4b4afda87064a0b81955c6590 ""
   "lecture_19.tex" 1748759553.19451 3895 af6e2110160383e8f35d7a6cd6a68574 ""
   "lecture_20.tex" 1749352470.53787 1046 63c4dfda4ecefda97996d396b0ab1ae0 ""
-  "lecture_21.tex" 1749353602.9603 2028 31fb39dc7e33031ce3683aaf5c3dac5d ""
+  "lecture_21.tex" 1749353775.75383 2028 31fb39dc7e33031ce3683aaf5c3dac5d ""
   "lecture_22.tex" 1748308532.37975 3792 1afa691194c8477b82b9c13cbbcb0b90 ""
   "lecture_23.tex" 1748486278.54245 3271 6753c8da8db19f4cfabc6cd6b09f6dea ""
   "lecture_24.tex" 1749086194.1945 4118 d13c332945cef34c2b40684ba37dce12 ""
+  "lecture_25.tex" 1749518130.88953 2997 540abe1c96966fe3559b655758c51bb9 ""
   "preamble.tex" 1744676267 1259 0fd914a51d8bee2ab814403ad88199de ""
   (generated)
   "default.aux"
