@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1749611164.65559 "default.tex" "default.pdf" "default" 1749611166.5753 2
+["pdflatex"] 1749711910.15953 "default.tex" "default.pdf" "default" 1749711911.61829 2
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvbc7t.tfm" 1136768653 2672 88159036c64e674fcd9515bc9c7052d4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -46,7 +46,6 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb" 1248133631 35479 892d27442ef9ef29ce1ee57aa0e8a665 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb" 1136849748 34421 79309417cbb00a4641f92d2efa583bbd ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -185,9 +184,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1722087936 5483422 a1ef07ac981a8b7f5985102f2de312a6 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722088451 8239366 ff316a329abd88a742fe564e39c10821 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "default.aux" 1749611166.38506 1475 4b88b17db4ec55d43546701fd28a5e52 "pdflatex"
-  "default.out" 1749611166.38684 1812 810d8aa6522fd09ff914badc36f7efc8 "pdflatex"
-  "default.tex" 1749610903.71585 820 09b60ab72668ae427b9c5ef249b67411 ""
+  "default.aux" 1749711911.46642 1475 12c12fdc21c3d1737ad87f8df7353f34 "pdflatex"
+  "default.out" 1749711911.46731 1812 38132c52dd917bcdc14894864e71e1e8 "pdflatex"
+  "default.tex" 1749707858.17371 843 b3ded51c7d81921a4feed2edf224db9c ""
   "jheppub.sty" 1734668770 11794 6d17a977bbb994fa9e704befb431a7fa ""
   "lecture_14.tex" 1748137874.5013 4607 36c5461d020a70753f527265e8b6eba1 ""
   "lecture_15.tex" 1749603943.3823 4677 9ba79ce1ec8d2ffeb974fb1ceed0825c ""
@@ -199,7 +198,8 @@
   "lecture_21.tex" 1748942374.58982 6329 f0578b247f1e81f8c67621bc6dd8beed ""
   "lecture_22.tex" 1749107747.11576 5876 1cc275a6c44ec0d2c29e3c74be4fc9b4 ""
   "lecture_23.tex" 1749539614.48758 4316 ace5229b5a8b902421d7aa05e82b9319 ""
-  "lecture_24.tex" 1749611163.8569 193 f8baa409832e018f10718aa5f3e2f60c ""
+  "lecture_24.tex" 1749611175.55722 1 68b329da9893e34099c7d8ad5cb9c940 ""
+  "lecture_25.tex" 1749711909.46246 5358 c565808b1b53a0928c565dbb7b6da2e0 ""
   "preamble.tex" 1745909356.62735 1349 d93abe7b403a32e8481b99716b2acdea ""
   (generated)
   "default.aux"

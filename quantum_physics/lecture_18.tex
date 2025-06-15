@@ -66,15 +66,14 @@ Note that they are Hermitian, unitary, and has a trace of $0$.
 A general quantum state is also called a density operator.
 \end{defi}
 \vspace{2ex}
-\begin{rmk}
-We can now understand our old friends $\psi (x)$ and $\phi (p)$ from a Dirac viewpoint. For the position and momentum operators that are Hermitian, when we employ the dirac delta quantisation method ($\langle x'|x''\rangle =\delta (x'-x'')$ and $\langle p'|p''\rangle =\delta (p'-p'')$), we have
-\[|\psi \rangle =\int_{-\infty }^{\infty } dx'\,\psi (x')|x'\rangle \quad |\psi \rangle =\int_{-\infty }^{\infty } dp'\,\phi (p')|p'\rangle \]
-and
-\[|\psi \rangle =\int_{-\infty }^{\infty } dx'\,\psi (x')\langle x''|x'\rangle=\psi (x'') \quad |\psi \rangle =\int_{-\infty }^{\infty } dp'\,\phi (p')\langle p''|p'\rangle =\phi (p'')\]
-Then, for the momentum operator defined like the following,
-\[\hat{P}\psi (x)=-i\hbar \dfrac{d }{d x}\psi (x) \]
-we have
-\[\langle x|\hat{p}|\psi \rangle =-i\hbar \dfrac{d }{d x}\langle x|\psi \rangle=\langle  \]
-\end{rmk}
+\begin{defi}
+In the Dirac sense, the wavefunctions $\psi (x)$ and $\phi (x)$ in the position space and the momentum space respectively are the coefficents of the state vector when projected into the position space and momentum space respectively. That is, by defining the eigenstates $|x\rangle $ and $|p\rangle $ to form a generalised orthonormal basis satisfying the following condition,
+\[\langle x|x'\rangle =\delta (x-x')\]
+states can be expanded as 
+\[|\psi \rangle =\int ^{\infty }_{-\infty }dx'\,\psi (x')|x'\rangle \quad |\psi \rangle =\int ^{\infty }_{-\infty }dp'\,\phi (p')|p'\rangle \]
+with
+\[\langle x|\psi \rangle =\int ^{\infty }_{-\infty }dx'\,\psi (x')\langle x|x'\rangle =\int ^{\infty }_{-\infty }dx'\,\psi (x')\delta (x-x')=\psi (x)\]
+and likewise for the momentum function. 
+\end{defi}
 \vspace{2ex}
 

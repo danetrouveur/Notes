@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  10 JUN 2025 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  12 JUN 2025 12:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -495,29 +495,51 @@ Overfull \hbox (1.32033pt too wide) detected at line 51
 
 [28]
 
-[29])
+[29]) (./lecture_23.tex
 
-[30] (./default.aux)
+[30]
+./lecture_23.tex:27: Display math should end with $$.
+<to be read again> 
+                   ,
+l.27 \[|z-\eta |<\delta $,
+                           for $z\in U\] then
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./lecture_23.tex:27: Missing $ inserted.
+<inserted text> 
+                $
+l.27 \[|z-\eta |<\delta $, for $z\in U\]
+                                         then
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+
+[31] (./default.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `default.out' has not changed.
-(rerunfilecheck)             Checksum: 8386764D882F83760C1DD3047B8140B5;1632.
+(rerunfilecheck)             Checksum: DF2AF22484AEB65626B758477083C3BA;1802.
  ) 
 Here is how much of TeX's memory you used:
- 11923 strings out of 473584
- 184550 string characters out of 5728328
+ 11932 strings out of 473584
+ 184686 string characters out of 5728328
  1943905 words of memory out of 5000000
- 34564 multiletter control sequences out of 15000+600000
+ 34568 multiletter control sequences out of 15000+600000
  567283 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,14n,96p,544b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,14n,96p,544b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on default.pdf (30 pages, 264217 bytes).
+Output written on default.pdf (31 pages, 270645 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

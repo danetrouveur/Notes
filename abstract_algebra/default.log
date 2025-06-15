@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  12 JUN 2025 08:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  12 JUN 2025 10:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -853,29 +853,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
+) (./lecture_26.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+Runaway argument?
+{tabl\end {ex} \vspace {2ex} 
+./lecture_26.tex:135: Paragraph ended before \begin  was complete.
+<to be read again> 
+                   \par 
+l.135 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 
-[20] (./default.aux)
+[22]
+
+[23]
+
+./default.tex:42: LaTeX Error: \begin{ex} on input line 114 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./default.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `default.out' has not changed.
-(rerunfilecheck)             Checksum: 1B917E29B32ABEF99110071ED9AEA2BB;1797.
- ) 
+(rerunfilecheck)             Checksum: 67D7BD43C8FC070186CC8C9E91D319E5;1967.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 114 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 23875 strings out of 473584
- 452657 string characters out of 5728328
+ 23920 strings out of 473584
+ 453246 string characters out of 5728328
  1944905 words of memory out of 5000000
- 46247 multiletter control sequences out of 15000+600000
- 567283 words of font info for 70 fonts, out of 8000000 for 9000
+ 46276 multiletter control sequences out of 15000+600000
+ 571940 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,9n,100p,688b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,13n,100p,688b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on default.pdf (20 pages, 199146 bytes).
+Output written on default.pdf (23 pages, 207090 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

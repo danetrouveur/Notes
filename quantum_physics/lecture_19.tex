@@ -1,17 +1,37 @@
 \section{Lecture 19 (May 14th)}
-\begin{rmk}
-(Derivation of the Fourier transform) In this lecture we see multiple applications of the completeness relation. Previously, we noted that
-\[\langle x'|p'\rangle =ce^{ip'x'/\hbar }\quad\mathrm{and}\quad\langle p'|x'\rangle =c^{*}e^{-ip'x'/\hbar }\]
-and the quantisation
+\begin{lem}
+We first try to obtain $\langle x|p\rangle $ and $\langle p|x\rangle $. Notice that
 \begin{align*}
-\delta (x'-x'')=&\langle x''|x'\rangle \\
-=&\int_{-\infty }^{\infty } dp'\,\langle x''|p'\rangle \langle p'|x'\rangle \\
-=&|c|^2\int_{-\infty }^{\infty } dp'\,\exp \Big(\dfrac{-ip'x''+ip'x'}{\hbar }\Big)=|c|^22\pi \hbar \delta (x'-x'')
+\langle x|\hat{p}|p\rangle =&p\langle x|p\rangle =-i\hbar \dfrac{d }{d x}\langle x|p\rangle 
 \end{align*}
-telling us that $|c|^22\pi \hbar =1$ and that the above are actually wave functions in the position and momentum spaces each. We have also previously noted that
-\[\psi (x)=\langle x|\psi \rangle =\int_{-\infty }^{\infty } dp\,\langle x|p\rangle \langle p|\psi \rangle=\int_{-\infty }^{\infty }\dfrac{dp}{\sqrt{2\pi \hbar }}\exp \Big(\dfrac{ipx}{\hbar }\Big)\phi (p)\]
-\end{rmk}
+Solving the differential equation we find
+\begin{align*}
+\langle x|p\rangle =&A(p)e^{ipx/\hbar }
+\end{align*}
+Noting the identity
+\[\int ^{\infty }_{-\infty }dx\,e^{ikx}=2\pi \delta (k)\]
+we find
+\begin{align*}
+\langle p|p'\rangle =&\delta (p-p')\\
+\int ^{\infty }_{-\infty }dx\,\langle p|x\rangle \langle x|p'\rangle =&\delta (p-p')\\
+\int ^{\infty }_{-\infty }dx\,|A(p)|^2e^{ix(p-p')/\hbar }=&\delta (p-p')\\
+|A(p)|^22\pi \delta \Big(\dfrac{p-p'}{\hbar }\Big)=&\delta (p-p')\\
+A(p)=\dfrac{1}{\sqrt{2\pi \hbar }}
+\end{align*}
+\end{lem}
 \vspace{2ex}
+\begin{thm}
+(Fourier transform) We find that the inverse Fourier and Fourier transforms are given as 
+\begin{align*}
+\psi (x)=\langle x|\psi \rangle =&\int ^{\infty }_{-\infty }dp\,\langle x|p\rangle \langle p|x\rangle\\ 
+=&\int ^{\infty }_{-\infty }dp\,e^{ipx/\hbar }\dfrac{1}{\sqrt{2\pi \hbar }}\phi (p)
+\end{align*}
+and
+\[\phi (p)=\langle p|\psi \rangle =\int ^{\infty }_{-\infty }dx\,e^{ipx/\hbar }\dfrac{1}{\sqrt{2\pi \hbar }}\psi (x)\]
+\end{thm}
+\vspace{2ex}
+
+\begin{rmk}
 \begin{prop}
 (Matrix representation) We can express the below basis independent expression of an arbitrary linear transformation in terms of matrices,
 \[|\psi \rangle =A|\phi \rangle \]
