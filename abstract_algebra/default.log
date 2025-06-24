@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  12 JUN 2025 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  24 JUN 2025 12:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -642,20 +642,29 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (./lecture_14.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+)) (./lecture_01.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 3.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 5.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+) (./lecture_02.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
@@ -664,65 +673,253 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
-
-) (./lecture_15.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+ []
+
+) (./lecture_03.tex
+
+[2]) (./lecture_04.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
-
- []
-
-) (./lecture_16.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+[4]) (./lecture_05.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
-[6]
+ []
+
+
+
+[6]) (./lecture_06.tex
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+) (./lecture_07.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
+
+ []
+
+) (./lecture_08.tex
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[10]) (./lecture_09.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+) (./lecture_10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+
+
+[13]) (./lecture_11.tex
+
+[14]) (./lecture_12.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+
+
+[15]
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 32.
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 32.
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 33.
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 33.
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 34.
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 34.
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 34.
+
+
+
+[16]) (./lecture_13.tex
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+
+[17]
+
+[18]) (./lecture_14.tex
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+
+[20]) (./lecture_15.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+
+[21]
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
+
+ []
+
+
+
+[23]) (./lecture_16.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
 
 
 
-[7]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 92--96
 
  []
 
 ) (./lecture_17.tex
 
-[8]) (./lecture_18.tex
+[26]) (./lecture_18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
  []
@@ -734,7 +931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
 
 
-[9]) (./lecture_19.tex
+[27]) (./lecture_19.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
@@ -746,9 +943,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
 
 
-[10]
+[28]
 
-[11]) (./lecture_20.tex
+[29]) (./lecture_20.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
@@ -765,28 +962,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
 
 
-[12]) (./lecture_22.tex
+[30]) (./lecture_22.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
 
-[13]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 
 
-[14]) (./lecture_23.tex
+[32]) (./lecture_23.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
 
-[15]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 45--50
 
  []
@@ -798,14 +995,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--50
 
 
 
-[16]) (./lecture_24.tex
+[34]) (./lecture_24.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
 
-[17]
+[35]
 
 ./lecture_24.tex:51: LaTeX Error: \begin{defi} on input line 47 ended by \end{rmk}.
 
@@ -841,37 +1038,40 @@ Things are pretty mixed up, but I think the worst is over.
 
 
 
-[18]) (./lecture_25.tex
+[36]) (./lecture_25.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
 
-[19]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-) (./lecture_26.tex
+
+
+[38]) (./lecture_26.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
-
-[20]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
 
 
 
-[21]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
+
+
+[40]
 Runaway argument?
 {tabl\end {ex} \vspace {2ex} 
 ./lecture_26.tex:135: Paragraph ended before \begin  was complete.
@@ -883,14 +1083,9 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 )
 
-[22]
-
-[23]
+[41]
 
 ./default.tex:42: LaTeX Error: \begin{ex} on input line 114 ended by \end{document}.
 
@@ -909,26 +1104,32 @@ or  <return>  to continue without it.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `default.out' has not changed.
-(rerunfilecheck)             Checksum: 67D7BD43C8FC070186CC8C9E91D319E5;1967.
+
+Package rerunfilecheck Warning: File `default.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `default.out':
+(rerunfilecheck)             Before: 67D7BD43C8FC070186CC8C9E91D319E5;1967
+(rerunfilecheck)             After:  7FFFED745498ADF02493D69BDE705FDC;4172.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 114 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23920 strings out of 473584
- 453246 string characters out of 5728328
- 1944905 words of memory out of 5000000
- 46276 multiletter control sequences out of 15000+600000
- 571940 words of font info for 90 fonts, out of 8000000 for 9000
+ 24143 strings out of 473584
+ 457866 string characters out of 5728328
+ 1942905 words of memory out of 5000000
+ 46428 multiletter control sequences out of 15000+600000
+ 572239 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,13n,100p,688b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,15n,100p,688b,1154s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on default.pdf (23 pages, 207090 bytes).
+Output written on default.pdf (41 pages, 260320 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

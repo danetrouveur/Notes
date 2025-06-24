@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  16 JUN 2025 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  24 JUN 2025 12:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -398,82 +398,175 @@ Package hyperref Info: Link coloring ON on input line 10.
 \openout3 = `default.out'.
 
 Couldn't patch \deferred@thm@head!
-(./lecture_15.tex
+(./lecture_01.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 5.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 6.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-)
+)) (./lecture_02.tex
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./lecture_16.tex) (./lecture_17.tex
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./lecture_03.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
 
 [2]
 
-[3]
+[3]) (./lecture_04.tex
+
+[4]
+
+[5]
+Overfull \hbox (8.45538pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10.95 The width for this is $2[]$, which poses a prob-lem. De-spite this, $[][] \OML/cmm/m/it/10.95 dx \OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 j[]$
+ []
+
+) (./lecture_05.tex
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Overfull \hbox (0.74744pt too wide) in paragraph at lines 28--30
+\OT1/cmr/m/n/10.95 (We can of course ex-tend our def-i-ni-tion to mul-ti-ple di-men-sions and we would have $\OML/cmm/m/it/10.95 @[]=@x[] \OMS/cmsy/m/n/10.95 !
+ []
+
+
+
+[7]) (./lecture_06.tex
+
+[8]
+
+[9]
+
+[10]) (./lecture_07.tex
+Overfull \hbox (64.44724pt too wide) detected at line 19
+[]
+ []
+
+
+
+[11]
+
+[12]) (./lecture_08.tex
+
+[13]) (./lecture_09.tex
+
+[14]
+
+[15]) (./lecture_10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+
+[16]
+
+[17]) (./lecture_11.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[18]
+
+[19]
+Overfull \hbox (19.4387pt too wide) in paragraph at lines 82--84
+\OT1/cmr/m/n/10.95 for some con-stant $\OML/cmm/m/it/10.95 C$\OT1/cmr/m/n/10.95 . $2\OML/cmm/m/it/10.95 a$ \OT1/cmr/m/n/10.95 sym-bol-ises the bar-rier's width and we know that $\OML/cmm/m/it/10.95 ^^T \OT1/cmr/m/n/10.95 = 2\OML/cmm/m/it/10.95 m[]=\U/msb/m/n/10.95 ~[]$\OT1/cmr/m/n/10.95 .
+ []
+
+) (./lecture_12.tex
+
+[20]) (./lecture_13.tex
+
+[21]
+
+[22]
+
+[23]) (./lecture_14.tex) (./lecture_15.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+
+[24]
+
+[25]) (./lecture_16.tex) (./lecture_17.tex
+
+[26]
 Overfull \hbox (1.37338pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/bx/n/10.95 Theorem. []\OT1/cmr/m/n/10.95 (Eigen-value prob-lem for Her-mi-tian op-er-a-tors) Let $\OML/cmm/m/it/10.95 A\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95  []\OMS/cmsy/m/n/10.95 i \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 a[]\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95  []\OMS/cmsy/m/n/10.95 i$ \OT1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 A\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95  []\OMS/cmsy/m/n/10.95 i \OT1/cmr/m/n/10.95 =
  []
 
-) (./lecture_18.tex
 
-[4]
 
-[5]) (./lecture_19.tex
+[27]) (./lecture_18.tex
 
-[6]
+[28]
 
-[7]
+[29]) (./lecture_19.tex
 
-[8]) (./lecture_20.tex
+[30]
 
-[9]
+[31]
 
-[10]
+[32]) (./lecture_20.tex
 
-[11]) (./lecture_21.tex
+[33]
 
-[12]
+[34]) (./lecture_21.tex
 
-[13]) (./lecture_22.tex
+[35]
 
-[14]
+[36]
 
-[15]
+[37]) (./lecture_22.tex
 
-[16]) (./lecture_23.tex
+[38]
 
-[17]
+[39]
 
-[18]
+[40]) (./lecture_23.tex
 
-[19]) (./lecture_24.tex
+[41]
 
-[20]
+[42]
 
-[21]) (./lecture_25.tex
+[43]) (./lecture_24.tex
 
-[22]
+[44]
 
-[23]
+[45]) (./lecture_25.tex
 
-[24]) (./lecture_26.tex
+[46]
 
-[25]) (./lecture_27.tex
+[47]
 
-[26]
+[48]) (./lecture_26.tex
+
+[49]) (./lecture_27.tex
+
+[50]
 ./lecture_27.tex:11: Missing $ inserted.
 <inserted text> 
                 $
@@ -551,9 +644,9 @@ Overfull \hbox (24.12363pt too wide) in paragraph at lines 24--25
 
 
 
-[27]
+[51]
 
-[28]
+[52]
 Overfull \hbox (4.05147pt too wide) detected at line 105
 \OMS/cmsy/m/n/10.95 h\OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 j[]j\OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 i \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 e[]; e[]\OT1/cmr/m/n/10.95 ) [] [] [] = [](\OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 e[]\OT1/cmr/m/n/10.95 ) = [] [](2\OML/cmm/m/it/10.95 ![]t\OT1/cmr/m/n/10.95 )
  []
@@ -566,7 +659,7 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 
 
 
-[29])
+[53])
 
 ./default.tex:44: LaTeX Error: \begin{rmk} on input line 34 ended by \end{document}.
 
@@ -582,31 +675,37 @@ or  <return>  to continue without it.
 
 
 
-[30] (./default.aux)
+[54] (./default.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `default.out' has not changed.
-(rerunfilecheck)             Checksum: 0F319C573947F2CB20E4AD9BCA162F11;2312.
+
+Package rerunfilecheck Warning: File `default.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `default.out':
+(rerunfilecheck)             Before: 0F319C573947F2CB20E4AD9BCA162F11;2312
+(rerunfilecheck)             After:  07D4286109BD544858F211D484AFC1C0;4517.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 34 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11959 strings out of 473584
- 185178 string characters out of 5728328
- 1951905 words of memory out of 5000000
- 34584 multiletter control sequences out of 15000+600000
+ 12082 strings out of 473584
+ 187032 string characters out of 5728328
+ 1950905 words of memory out of 5000000
+ 34628 multiletter control sequences out of 15000+600000
  567283 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,13n,96p,544b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,19n,96p,544b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on default.pdf (30 pages, 289079 bytes).
+Output written on default.pdf (54 pages, 365329 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
